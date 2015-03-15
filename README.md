@@ -1,0 +1,1 @@
+# vertx-unit-exception-issue
