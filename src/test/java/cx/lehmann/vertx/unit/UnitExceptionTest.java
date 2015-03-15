@@ -17,14 +17,14 @@ import org.junit.runner.RunWith;
  *
  */
 @RunWith(VertxUnitRunner.class)
-public class UnitTestExample {
+public class UnitExceptionTest {
 
-  private static final Logger log = LoggerFactory.getLogger(UnitTestExample.class);
+  private static final Logger log = LoggerFactory.getLogger(UnitExceptionTest.class);
 
   @Test
   public void testMail(TestContext context) throws Exception {
     log.info("starting test");
-    Async async = context.async();
+//    Async async = context.async();
 
     throw new Exception(); 
   }
