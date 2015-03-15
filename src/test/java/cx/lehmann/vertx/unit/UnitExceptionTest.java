@@ -24,7 +24,7 @@ public class UnitExceptionTest {
   @Test
   public void testMail(TestContext context) throws Exception {
     log.info("starting test");
-//    Async async = context.async();
+    Async async = context.async();
 
     throw new Exception(); 
   }
